@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none" stroke="#C9A96E" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Sheet crop marks -->
+  <path d="M16 40V16h24M600 16h24v24M624 440v24h-24M40 464H16v-24" stroke-width="1" opacity=".55"/>
+
+  <!-- Sun -->
+  <circle cx="156" cy="124" r="34" stroke-width="1" opacity=".35"/>
+  <circle cx="156" cy="124" r="52" stroke-width=".6" opacity=".16"/>
+
+  <!-- Rear tower -->
+  <g opacity=".42">
+    <rect x="500" y="150" width="92" height="280" stroke-width="1"/>
+    <path d="M500 178h92M500 206h92M500 234h92M500 262h92M500 290h92M500 318h92M500 346h92M500 374h92M500 402h92" stroke-width=".7"/>
+    <path d="M523 150v280M546 150v280M569 150v280" stroke-width=".5"/>
+  </g>
+
+  <!-- Main tower -->
+  <rect x="378" y="76" width="104" height="354" fill="#C9A96E" fill-opacity=".05" stroke="none"/>
+  <rect x="372" y="76" width="116" height="354" stroke-width="1.2"/>
+  <rect x="392" y="58" width="76" height="18" stroke-width="1"/>
+  <path d="M364 76h132" stroke-width="1.4"/>
+  <path d="M366 106h128M366 136h128M366 166h128M366 196h128M366 226h128M366 256h128M366 286h128M366 316h128M366 346h128M366 376h128M366 406h128" stroke-width="1"/>
+  <path d="M401 76v354M430 76v354M459 76v354" stroke-width=".6" opacity=".6"/>
+  <rect x="412" y="398" width="36" height="32" fill="#C9A96E" fill-opacity=".12" stroke-width="1"/>
+
+  <!-- Villa -->
+  <rect x="84" y="336" width="216" height="94" stroke-width="1.4"/>
+  <rect x="132" y="256" width="220" height="80" stroke-width="1.4"/>
+  <rect x="120" y="246" width="244" height="10" fill="#C9A96E" fill-opacity=".14" stroke-width="1.2"/>
+  <rect x="76" y="330" width="60" height="6" fill="#C9A96E" fill-opacity=".14" stroke-width="1"/>
+  <path d="M80 330v-16h52v16M88 314v16M96 314v16M104 314v16M112 314v16M120 314v16" stroke-width=".7"/>
+  <rect x="212" y="272" width="126" height="48" fill="#C9A96E" fill-opacity=".09" stroke-width="1"/>
+  <path d="M243.5 272v48M275 272v48M306.5 272v48" stroke-width=".7"/>
+  <path d="M141 256v80M150 256v80M159 256v80M168 256v80M177 256v80M186 256v80M195 256v80M204 256v80" stroke-width=".5" opacity=".6"/>
+  <rect x="168" y="354" width="116" height="76" fill="#C9A96E" fill-opacity=".09" stroke-width="1"/>
+  <path d="M206.7 354v76M245.3 354v76M168 368h116" stroke-width=".7"/>
+  <rect x="102" y="364" width="36" height="66" stroke-width="1"/>
+  <path d="M130 392v10" stroke-width="1.2"/>
+  <path d="M346 336v94" stroke-width="1"/>
+
+  <!-- Trees -->
+  <circle cx="48" cy="372" r="22" stroke-width="1"/>
+  <path d="M48 394v36M48 404l-8-10M48 400l9-12" stroke-width=".8"/>
+  <path d="M150 430a9 9 0 0 1 18 0M290 430a8 8 0 0 1 16 0" stroke-width=".8"/>
+
+  <!-- Ground -->
+  <path d="M16 430h608" stroke-width="1.4"/>
+  <path d="M24 442l10-10M40 442l10-10M56 442l10-10M72 442l10-10M88 442l10-10M104 442l10-10M120 442l10-10M136 442l10-10M152 442l10-10M168 442l10-10M184 442l10-10M200 442l10-10M216 442l10-10M232 442l10-10M248 442l10-10M264 442l10-10M280 442l10-10M296 442l10-10M312 442l10-10M328 442l10-10M344 442l10-10M360 442l10-10M376 442l10-10M392 442l10-10M408 442l10-10M424 442l10-10M440 442l10-10M456 442l10-10M472 442l10-10M488 442l10-10M504 442l10-10M520 442l10-10M536 442l10-10M552 442l10-10M568 442l10-10M584 442l10-10M600 442l10-10" stroke-width=".6" opacity=".45"/>
+
+  <!-- Dimension lines -->
+  <g stroke-width=".8" opacity=".65">
+    <path d="M120 226h244M120 220v12M364 220v12M116 230l8-8M360 230l8-8"/>
+    <path d="M612 76v354M606 76h12M606 430h12M608 80l8-8M608 434l8-8"/>
+  </g>
+
+  <!-- Scale bar -->
+  <g opacity=".5" stroke-width=".8">
+    <rect x="40" y="452" width="20" height="4" fill="#C9A96E"/>
+    <rect x="60" y="452" width="20" height="4"/>
+    <rect x="80" y="452" width="20" height="4" fill="#C9A96E"/>
+    <rect x="100" y="452" width="20" height="4"/>
+  </g>
+</svg>
