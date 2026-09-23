@@ -1,0 +1,3 @@
+# Keep maintainer notes off the published site.
+exclude:
+  - README.md

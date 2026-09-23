@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 460" fill="none" stroke="#C9A96E" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#C9A96E" stroke-width=".6" opacity=".07"/>
+    </pattern>
+    <g id="villa">
+      <rect x="0" y="72" width="110" height="80" stroke-width="1.05"/>
+      <rect x="20" y="8" width="110" height="64" stroke-width="1.05"/>
+      <rect x="10" y="0" width="130" height="8" fill="#C9A96E" fill-opacity=".14" stroke-width=".9"/>
+      <rect x="62" y="20" width="58" height="40" fill="#C9A96E" fill-opacity=".09" stroke-width=".75"/>
+      <path d="M81.3 20v40M100.6 20v40" stroke-width=".5"/>
+      <path d="M28 8v64M36 8v64M44 8v64M52 8v64" stroke-width=".4" opacity=".6"/>
+      <rect x="50" y="90" width="50" height="62" fill="#C9A96E" fill-opacity=".09" stroke-width=".75"/>
+      <path d="M75 90v62M50 102h50" stroke-width=".5"/>
+      <rect x="14" y="98" width="24" height="54" stroke-width=".75"/>
+      <path d="M125 72v80" stroke-width=".75"/>
+    </g>
+  </defs>
+  <rect width="800" height="460" fill="#19202A" stroke="none"/>
+  <rect width="800" height="460" fill="url(#g)" stroke="none"/>
+
+  <!-- Apartment block -->
+  <rect x="618" y="72" width="132" height="328" fill="#C9A96E" fill-opacity=".05" stroke="none"/>
+  <rect x="612" y="72" width="144" height="328" stroke-width="1.2"/>
+  <rect x="644" y="54" width="80" height="18" stroke-width="1"/>
+  <path d="M604 72h160" stroke-width="1.4"/>
+  <path d="M606 102h156M606 132h156M606 162h156M606 192h156M606 222h156M606 252h156M606 282h156M606 312h156M606 342h156M606 372h156" stroke-width="1"/>
+  <path d="M648 72v328M684 72v328M720 72v328" stroke-width=".55" opacity=".6"/>
+  <rect x="664" y="370" width="40" height="30" fill="#C9A96E" fill-opacity=".12" stroke-width="1"/>
+
+  <!-- Villa row -->
+  <use xlink:href="#villa" href="#villa" transform="translate(36 210) scale(1.25)"/>
+  <use xlink:href="#villa" href="#villa" transform="translate(220 210) scale(1.25)"/>
+  <use xlink:href="#villa" href="#villa" transform="translate(404 210) scale(1.25)"/>
+
+  <!-- Ground -->
+  <path d="M16 400h768" stroke-width="1.4"/>
+  <path d="M24 412l10-10M48 412l10-10M72 412l10-10M96 412l10-10M120 412l10-10M144 412l10-10M168 412l10-10M192 412l10-10M216 412l10-10M240 412l10-10M264 412l10-10M288 412l10-10M312 412l10-10M336 412l10-10M360 412l10-10M384 412l10-10M408 412l10-10M432 412l10-10M456 412l10-10M480 412l10-10M504 412l10-10M528 412l10-10M552 412l10-10M576 412l10-10M600 412l10-10M624 412l10-10M648 412l10-10M672 412l10-10M696 412l10-10M720 412l10-10M744 412l10-10M768 412l10-10" stroke-width=".6" opacity=".4"/>
+
+  <!-- Dimensions -->
+  <g stroke-width=".8" opacity=".6">
+    <path d="M48 188h531M48 182v12M579 182v12M44 192l8-8M575 192l8-8"/>
+    <path d="M780 72v328M774 72h12M774 400h12M776 76l8-8M776 404l8-8"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 600" fill="none" stroke="#C9A96E" stroke-linejoin="round">
+  <!-- Exterior walls -->
+  <g stroke-width="10" opacity=".55">
+    <path d="M40 45h40M160 45h40M244 45h236"/>
+    <path d="M475 40v60M475 180v380"/>
+    <path d="M480 555h-60M330 555H170M90 555H40"/>
+    <path d="M45 560V440M45 360V40"/>
+  </g>
+  <!-- Windows -->
+  <g stroke-width=".7" opacity=".8">
+    <path d="M80 41h80M80 45h80M80 49h80"/>
+    <path d="M471 100v80M475 100v80M479 100v80"/>
+    <path d="M420 551h-90M420 555h-90M420 559h-90M170 551H90M170 555H90M170 559H90"/>
+    <path d="M41 440v-80M45 440v-80M49 440v-80"/>
+  </g>
+  <!-- Interior walls -->
+  <g stroke-width="5" opacity=".5">
+    <path d="M50 252.5h140M232 252.5h36M310 252.5h160"/>
+    <path d="M247.5 255v295"/>
+    <path d="M382.5 255v45M382.5 340v22.5M380 362.5h90"/>
+  </g>
+  <!-- Doors -->
+  <g stroke-width=".8" stroke-linecap="round" opacity=".8">
+    <path d="M244 50v44M200 50a44 44 0 0 0 44 44"/>
+    <path d="M190 255v42M232 255a42 42 0 0 1-42 42"/>
+    <path d="M310 255v42M268 255a42 42 0 0 0 42 42"/>
+    <path d="M385 300h40M385 340a40 40 0 0 0 40-40"/>
+  </g>
+  <!-- Furniture -->
+  <g stroke-width=".8" stroke-linecap="round" opacity=".6">
+    <path d="M70 150h110v28H98v52H70z"/>
+    <rect x="120" y="190" width="46" height="28" rx="3"/>
+    <circle cx="300" cy="130" r="26"/>
+    <rect x="292" y="94" width="16" height="8" rx="2"/>
+    <rect x="292" y="158" width="16" height="8" rx="2"/>
+    <rect x="264" y="122" width="8" height="16" rx="2"/>
+    <rect x="328" y="122" width="8" height="16" rx="2"/>
+    <path d="M380 52h88v138h-16V68h-72z"/>
+    <circle cx="410" cy="60" r="4"/><circle cx="426" cy="60" r="4"/>
+    <rect x="455" y="118" width="10" height="26" rx="2"/>
+    <rect x="80" y="400" width="110" height="130" rx="3"/>
+    <rect x="88" y="406" width="42" height="18" rx="3"/><rect x="140" y="406" width="42" height="18" rx="3"/>
+    <path d="M80 440h110"/>
+    <rect x="214" y="320" width="28" height="120"/><path d="M214 320l28 120"/>
+    <rect x="280" y="410" width="110" height="130" rx="3"/>
+    <rect x="288" y="416" width="42" height="18" rx="3"/><rect x="340" y="416" width="42" height="18" rx="3"/>
+    <path d="M280 450h110"/>
+    <rect x="398" y="262" width="24" height="14" rx="3"/>
+    <ellipse cx="452" cy="288" rx="9" ry="12"/>
+  </g>
+  <!-- Dimensions -->
+  <g stroke-width=".8" stroke-linecap="round" opacity=".5">
+    <path d="M40 20h440M40 14v12M480 14v12M36 24l8-8M476 24l8-8"/>
+    <path d="M18 40v520M12 40h12M12 560h12M14 44l8-8M14 564l8-8"/>
+  </g>
+</svg>
